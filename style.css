@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Sans-Serif;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  background-color: #32cf8d;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #d2f1cc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+  color: #d2f1cc;
+}
+
+nav ul li a {
+  color: #d2f1cc;
+  text-decoration: none;
+}
+
+nav.logo {
+font-family: 'Pacifico', cursive
+}
